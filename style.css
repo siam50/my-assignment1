@@ -36,3 +36,86 @@ body {
     background-color: tomato;
     padding: 13px;
 }
+
+.donate {
+    text-align: center;
+}
+
+.donate-content {
+    color: black;
+    padding: 10%;
+    text-align: center;
+}
+
+.donate-content h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.taka {
+    display: flex;
+    text-align: center;
+    margin: 0px 300px;
+}
+
+.tk-100 {
+    flex: 1;
+    background-color: lightcyan;
+    color: gray;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.tk-200 {
+    flex: 1;
+    background-color: lightsalmon;
+    color: tomato;
+    border: 2px solid red;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.tk-500 {
+    flex: 1;
+    background-color: lightcyan;
+    color: gray;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.tk-1000 {
+    flex: 1;
+    background-color: lightcyan;
+    color: gray;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.tk-5000 {
+    flex: 1;
+    background-color: lightcyan;
+    color: gray;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.amount {
+    text-align: center;
+    margin-top: 5%;
+}
+
+#enter-tk {
+    color: gray;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    text-align: center;
+    margin-bottom: 2%;
+}
