@@ -53,10 +53,14 @@ body {
     font-weight: bold;
 }
 
+.donate-content p {
+    color: gray;
+}
+
 .taka {
     display: flex;
     text-align: center;
-    margin: 0px 350px;
+    margin: 0px 400px;
 }
 
 .same-bg {
@@ -103,4 +107,43 @@ body {
 
 .donate-now {
     border-radius: 5px;
+}
+
+.flex-part {
+    display: flex;
+    text-align: center;
+    margin: 0px 200px;
+}
+
+.food {
+    flex: 1;
+    text-align: left;
+    background-color: lightcyan;
+    background: #e0ffff69;
+    border-radius: 5px;
+    padding: 60px 50px 30px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.shelter {
+    flex: 1;
+    text-align: left;
+    background-color: tomato;
+    background: #ff63472b;
+    border-radius: 5px;
+    padding: 60px 50px 30px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.education {
+    flex: 1;
+    text-align: left;
+    background-color: orange;
+    background: #ffa50029;
+    border-radius: 5px;
+    padding: 60px 50px 30px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
