@@ -113,7 +113,7 @@ body {
     display: flex;
     text-align: center;
     margin: 0px 200px;
-    padding-bottom: 5%;
+    /padding-bottom: 5%;
 }
 
 .flex-part p {
@@ -151,6 +151,49 @@ body {
     padding: 60px 50px 30px 20px;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.gallery-part {
+    display: flex;
+    text-align: center;
+    margin: 0px 200px;
+}
+
+.shylet {
+    flex: 1;
+    background-image: url(images/donation2.jpg);
+    background-size: cover;
+    padding: 60px 50px 30px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.kurigram {
+    flex: 1;
+    background-image: url(images/donation10.jpg);
+    background-size: cover;
+    padding: 60px 50px 30px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.shonamgonj {
+    flex: 1;
+    background-image: url(images/donation11.jpg);
+    background-size: cover;
+    padding: 60px 50px 30px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.layer {
+    color: white;
+    background: transparent;
+    transition: 0.5s;
+}
+
+.layer:hover {
+    background: rgba(255, 0, 0, 0.419);
 }
 
 footer {
