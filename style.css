@@ -36,6 +36,7 @@ body {
     color: white;
     background-color: tomato;
     padding: 13px;
+    border-radius: 5px;
 }
 
 .donate {
@@ -95,6 +96,7 @@ body {
 }
 
 #enter-tk {
+    font-size: 20px;
     color: gray;
     width: 50%;
     padding: 12px 20px;
@@ -105,15 +107,10 @@ body {
     margin-bottom: 2%;
 }
 
-.donate-now {
-    border-radius: 5px;
-}
-
 .flex-part {
     display: flex;
     text-align: center;
     margin: 0px 200px;
-    /padding-bottom: 5%;
 }
 
 .flex-part p {
@@ -163,7 +160,7 @@ body {
     flex: 1;
     background-image: url(images/donation2.jpg);
     background-size: cover;
-    padding: 60px 50px 30px 20px;
+    padding: 50px 50px 30px 40px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -172,7 +169,7 @@ body {
     flex: 1;
     background-image: url(images/donation10.jpg);
     background-size: cover;
-    padding: 60px 50px 30px 20px;
+    padding: 50px 50px 30px 40px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -181,7 +178,7 @@ body {
     flex: 1;
     background-image: url(images/donation11.jpg);
     background-size: cover;
-    padding: 60px 50px 30px 20px;
+    padding: 50px 50px 30px 40px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -194,6 +191,32 @@ body {
 
 .layer:hover {
     background: rgba(255, 0, 0, 0.419);
+    padding: 5px;
+}
+
+form {
+    background-color: antiquewhite;
+    text-align: center;
+    margin: 0px 350px 150px 350px;
+    padding: 6%;
+}
+
+.email {
+    color: gray;
+    width: 50%;
+    padding: 22px;
+    background-color: rgb(221, 215, 215);
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+}
+
+label {
+    position: relative;
+    color: white;
+    background-color: tomato;
+    padding: 20px 65px;
+    border-radius: 0px 10px 10px 0px;
+    left: -10px;
 }
 
 footer {
