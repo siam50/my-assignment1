@@ -113,6 +113,11 @@ body {
     display: flex;
     text-align: center;
     margin: 0px 200px;
+    padding-bottom: 5%;
+}
+
+.flex-part p {
+    color: gray;
 }
 
 .food {
@@ -146,4 +151,22 @@ body {
     padding: 60px 50px 30px 20px;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+footer h2 {
+    color: orange;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer span {
+    color: white;
+    opacity: .6;
 }
