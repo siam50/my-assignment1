@@ -32,6 +32,7 @@ body {
 
 .button {
     text-decoration: none;
+    font-size: 20px;
     color: white;
     background-color: tomato;
     padding: 13px;
@@ -43,7 +44,7 @@ body {
 
 .donate-content {
     color: black;
-    padding: 10%;
+    padding: 4%;
     text-align: center;
 }
 
@@ -55,50 +56,29 @@ body {
 .taka {
     display: flex;
     text-align: center;
-    margin: 0px 300px;
+    margin: 0px 350px;
 }
 
-.tk-100 {
+.same-bg {
     flex: 1;
+    font-size: 20px;
     background-color: lightcyan;
+    background: #e0ffff57;
     color: gray;
-    padding: 10px;
+    border-radius: 5px;
+    padding-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
 }
 
 .tk-200 {
     flex: 1;
+    font-size: 20px;
     background-color: lightsalmon;
+    background: #ffa07a36;
     color: tomato;
     border: 2px solid red;
-    padding: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.tk-500 {
-    flex: 1;
-    background-color: lightcyan;
-    color: gray;
-    padding: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.tk-1000 {
-    flex: 1;
-    background-color: lightcyan;
-    color: gray;
-    padding: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.tk-5000 {
-    flex: 1;
-    background-color: lightcyan;
-    color: gray;
+    border-radius: 5px;
     padding: 10px;
     margin-left: 10px;
     margin-right: 10px;
@@ -106,7 +86,8 @@ body {
 
 .amount {
     text-align: center;
-    margin-top: 5%;
+    margin-top: 2%;
+    margin-bottom: 1%;
 }
 
 #enter-tk {
@@ -114,8 +95,12 @@ body {
     width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
-    box-sizing: border-box;
-    border: 3px solid #ccc;
+    border: none;
+    border-bottom: 3px solid #ccc;
     text-align: center;
     margin-bottom: 2%;
+}
+
+.donate-now {
+    border-radius: 5px;
 }
