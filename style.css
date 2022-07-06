@@ -39,22 +39,22 @@ body {
     border-radius: 5px;
 }
 
-.donate {
+.top {
     text-align: center;
 }
 
-.donate-content {
+.top-content {
     color: black;
     padding: 4%;
     text-align: center;
 }
 
-.donate-content h1 {
+.top-content h1 {
     font-size: 40px;
     font-weight: bold;
 }
 
-.donate-content p {
+.top-content p {
     color: gray;
 }
 
@@ -227,7 +227,7 @@ footer {
 }
 
 footer h2 {
-    color: orange;
+    color: tomato;
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
